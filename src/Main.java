@@ -28,11 +28,31 @@ public class Main {
         for (Map.Entry<String, String> entry : stringHashMap.entrySet()) {
             System.out.println(entry);
         }
-        HashMap<String, Integer> numberOfDays = new HashMap<>();
+        Map<String, Integer> numberOfDays = new HashMap<>();
         numberOfDays.put("Июнь", 30);
         numberOfDays.put("Июнль", 31);
         numberOfDays.put("Август", 31);
         System.out.println(numberOfDays.values());
+
+//        for (String month : numberOfDays.keySet())
+//            if (!month.equals(avgust.get(month))) numberOfDays.put("Август", 31);
+//        else if ((month.equals(avgust.getMonth()))
+//                    && (TelephoneDirectory.getNumberDays() == avgust.getNumberDays())) {
+//                System.out.println("Исключение");
+//            } else {
+//                numberOfDays.put("Август", 31);
+//                //TelephoneDirectory.getNumberDays() = avgust.getNumberDays();
+//            }
+//        for (Map.Entry<String, Integer> month: numberOfDays.entrySet()){
+//            if (month != avgust.get(month)) {
+//                numberOfDays.put("Август", 31);
+//            } else if ((month == avgust.getMonth())
+//                    && (TelephoneDirectory.getNumberDays() == avgust.getNumberDays())) {
+//                System.out.println("Исключение");
+//            } else {
+//                TelephoneDirectory.getNumberDays() = avgust.getNumberDays();
+//            }
+//        }
 
     }
 }
